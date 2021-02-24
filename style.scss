@@ -295,6 +295,38 @@ footer {
   width: 100%;
 }
 
+// extras
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: 16px helvetica;
+}
+
+input[type=button] {
+    width: 20%;
+    background-color:#30adc5;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: 16px helvetica;
+    }
+
+.subscribe {
+  background-color: red;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
