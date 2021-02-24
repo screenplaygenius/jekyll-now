@@ -271,17 +271,13 @@ nav {
   }
 }
 
-.wrapper-footer {
+footer {
+  padding-top: 20px;
+  text-align: center;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-}
-
-footer {
-  bottom: 0;
-  padding-top: 20px;
-  text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
