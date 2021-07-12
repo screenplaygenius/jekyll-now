@@ -11,8 +11,11 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        
+        <form action="{{ site.baseurl }}{{ post.url }}">
+            <input type="submit" value="Read More" />
+        </form>
+        
     </article>
     {% endfor %}
 </div>
