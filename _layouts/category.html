@@ -12,6 +12,10 @@ layout: default
         {{ post.excerpt }}
       </div>
         
+        <form action="{{ site.baseurl }}{{ post.url }}">
+            <input type="submit" value="Read More" />
+        </form>
+        
         <button onclick="{{ site.baseurl }}{{ post.url }}'">Read More</button>
         
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
