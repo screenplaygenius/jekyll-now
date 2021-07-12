@@ -12,6 +12,8 @@ layout: default
         {{ post.excerpt }}
       </div>
 
+        <button onclick="{{ site.baseurl }}{{ post.url }}'">Read More</button>
+        
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
     {% endfor %}
