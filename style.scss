@@ -38,7 +38,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Courier New', monospace;
-  color: $darkerGray;
+  color: $black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -123,7 +123,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $black;
 }
 
 // Specify the color of the selection
@@ -162,7 +162,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
   padding-left: 25px;
   padding-right: 25px;
   background-color: #ed008c;
@@ -325,11 +324,10 @@ input[type=submit] {
 }
 
 .page1 {
-    margin: 0 auto;
+    margin: 50px;
     max-width: 740px;
-    padding: 50px;
+    padding: 50px 50px 50px 50px;
     width: 100%;
-
 }
 
 .home-image {
