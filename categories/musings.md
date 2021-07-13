@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: category
 title: Musings
-permalink: "/musings"
-tag: ''
+permalink: "/musings/"
+tag: musings
 
 ---
