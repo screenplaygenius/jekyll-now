@@ -4,7 +4,6 @@ title: Test Post 2
 
 categories:
     - "blog"
-    - "mywriting"
 
 ---
 
