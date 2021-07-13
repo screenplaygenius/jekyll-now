@@ -290,9 +290,10 @@ footer {
   margin-top: 0px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $black;
   height: 200px;
   width: 100%;
+  color: white;
 }
 
 // extras
@@ -322,9 +323,9 @@ input[type=submit] {
     }
 
 .subscribe {
-  background-color: red;
+  background-color: #f4eb0e;
   margin-top: 50px;
-  padding-bottom: 25px;
+  padding: 50px;
   text-align: center;
 }
 
