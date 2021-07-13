@@ -288,8 +288,6 @@ footer {
   padding-top: 20px;
   text-align: center;
   margin-top: 0px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background-color: $black;
   height: 200px;
   width: 100%;
@@ -311,7 +309,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 20%;
-    background-color:#30adc5;
+    background-color:#00a652;
     border: none;
     color: white;
     padding: 15px 15px;
@@ -323,7 +321,7 @@ input[type=submit] {
     }
 
 .subscribe {
-  background-color: #00a652;
+  background-color: #f4eb0e;
   padding: 50px;
   text-align: center;
 }
