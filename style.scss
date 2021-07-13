@@ -27,8 +27,6 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0px 0px 50px 0px;
   width: 100%;
 }
 
@@ -327,7 +325,10 @@ input[type=submit] {
 }
 
 .page {
-  padding-bottom: 50px;
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 0px 0px 50px 0px;
+    width: 100%;
 }
 
 .home-image {
