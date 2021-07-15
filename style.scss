@@ -337,11 +337,8 @@ input[type=submit] {
 .home-image {
   height: 50%;
   width: 100%;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
   object-fit: cover;
+  background-image: url("/images/home.jpeg")
 }
 
 .home-button {
