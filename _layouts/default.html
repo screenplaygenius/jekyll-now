@@ -26,24 +26,14 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <!-- Top Navigation Menu -->
-          <div class="topnav">
-            <!-- Navigation links (hidden by default) -->
-            <div id="myLinks">
-              <a href="#news">News</a>
-              <a href="#contact">Contact</a>
-              <a href="#about">About</a>
-            </div>
-            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
+          <nav id="hamnav">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+            <div id="hamitems">
+              <a href="{{ site.baseurl }}/screenplaymachine">Screenplay Machine</a>
+              <a href="{{ site.baseurl }}/blog">Blog</a>
+              <a href="{{ site.baseurl }}/mywriting">My Writing</a>
           </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/screenplaymachine">Screenplay Machine</a>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
-            <a href="{{ site.baseurl }}/mywriting">My Writing</a>
           </nav>
         </header>
       </div>
