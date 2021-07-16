@@ -337,15 +337,14 @@ input[type=submit] {
 .home-image {
   background-image: url("/images/home.jpeg");
   background-color: green;
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   width: 100%;
-  height: 650px;
+  height: 600px;
 }
 
 .home-button {
-    width: 20%;
     background-color:#00a652;
     border: none;
     color: white;
