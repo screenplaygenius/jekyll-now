@@ -172,7 +172,7 @@ img {
 }
 
 .site-avatar {
-  float: left;
+  float: none;
   width: 70px;
   height: 70px;
   margin-right: 15px;
@@ -189,7 +189,7 @@ img {
 }
 
 .site-info {
-  float: left;
+  float: none;
 
   @include mobile {
     float: none;
@@ -219,7 +219,7 @@ img {
 }
 
 nav {
-  float: right;
+  float: none;
   margin-top: 23px; // @TODO: Vertically middle align
   margin-left: 23px;
   font-family: 'Courier New', monospace;
