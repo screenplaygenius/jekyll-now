@@ -171,9 +171,8 @@ img {
 }
 
 .site-avatar {
-  float: none;
-  width: 70px;
-  height: 70px;
+    width: 70px;
+    height: 70px;
     float: none;
     display: block;
     margin: 0 auto;
@@ -184,9 +183,6 @@ img {
   }
 
 .site-info {
-  float: none;
-
-  @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
