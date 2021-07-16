@@ -366,7 +366,7 @@ input[type=submit] {
   width: 100%;
   border-top: 1px solid #333;
 }
-/* (B) SHOW HAMBURGER ICON */
+
 #hamnav label {
   display: inline-block;
   color: white;
@@ -376,10 +376,9 @@ input[type=submit] {
   padding: 10px;
 }
 
-/* (C) TOGGLE SHOW/HIDE MENU */
 #hamitems { display: none; }
 #hamnav input:checked ~ #hamitems { display: block; }
-}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
