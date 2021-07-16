@@ -366,7 +366,6 @@ input[type=submit] {
   background-color: black;
   color: white;
   padding: 5px;
-  width: 100%;
 }
 
 #hamnav label {
@@ -374,9 +373,6 @@ input[type=submit] {
   color: black;
   font-style: normal;
   font-size: 1.2em;
-  padding: 10px;
-  width: 100%;
-  margin: 0px;
 }
 
 #hamnav input {
@@ -384,7 +380,14 @@ input[type=submit] {
 }
 
 #hamitems { display: none; }
-#hamnav input:checked ~ #hamitems { display: block; }
+#hamnav input:checked ~ #hamitems {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  width: 100%;
+  margin: 0px;
+
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
