@@ -164,11 +164,8 @@ img {
   padding-left: 25px;
   padding-right: 25px;
   background-color: #ed008c;
-
-  @include mobile {
     text-align: center;
   }
-}
 
 .site-avatar {
     width: 70px;
@@ -196,6 +193,7 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  margin: 0 auto;
 }
 
 .site-description {
