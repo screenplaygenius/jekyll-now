@@ -374,7 +374,10 @@ input[type=submit] {
   width: 100%;
   margin: 0px;
   left: 0px;
+  text-align: center;
   z-index: 1;
+  margin-top: 50px;
+  width: 75%;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
