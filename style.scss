@@ -349,6 +349,11 @@ input[type=submit] {
 }
 
 #hamitems a {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
   box-sizing: border-box;
   display: block;
   background-color: black;
