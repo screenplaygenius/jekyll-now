@@ -378,7 +378,7 @@ input {
 
 .open:after {
   content: "";
-  background-color: #3c3c3c;
+  background-color: $black;
   width: 24px;
   height: 4px;
   display: block;
@@ -449,7 +449,7 @@ input {
 }
 
 .menu ul li a:hover {
-  color: #ff8702;
+  color: $black;
 }
 
 .menu ul li:hover {
