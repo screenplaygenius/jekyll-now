@@ -359,6 +359,7 @@ input {
   border-radius: 2px;
   cursor: pointer;
   position: relative;
+  margin: auto;
   top: 8px;
 }
 
@@ -391,10 +392,8 @@ input {
 .menuOpen {
   width: 24px;
   height: 20px;
-  display: block;
   padding: 15px;
   cursor: pointer;
-  float: right;
 }
 
 .menuOpen:hover .open:before {
@@ -411,7 +410,7 @@ input {
   height: 100vh;
   top: 0;
   left: 0;
-  background: $black;
+  background: rgba(255, 135, 2, 0.9);
 }
 
 .menu label {
@@ -505,6 +504,7 @@ input {
 #menuToggle:not(:checked) ~ .menuEffects ul {
   transform: translateY(-30%);
 }
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
