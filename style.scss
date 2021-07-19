@@ -352,7 +352,7 @@ input {
 }
 
 .open {
-  background-color: #3c3c3c;
+  background-color: #black;
   width: 24px;
   height: 4px;
   display: block;
@@ -364,7 +364,7 @@ input {
 
 .open:before {
   content: "";
-  background-color: #3c3c3c;
+  background-color: #$black;
   width: 24px;
   height: 4px;
   display: block;
@@ -376,7 +376,7 @@ input {
 
 .open:after {
   content: "";
-  background-color: #3c3c3c;
+  background-color: #$black;
   width: 24px;
   height: 4px;
   display: block;
@@ -404,7 +404,7 @@ input {
 }
 
 .menu {
-  position: fixed;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
