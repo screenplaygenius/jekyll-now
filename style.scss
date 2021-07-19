@@ -352,7 +352,7 @@ input {
 }
 
 .open {
-  background-color: #black;
+  background-color: $black;
   width: 24px;
   height: 4px;
   display: block;
@@ -364,7 +364,7 @@ input {
 
 .open:before {
   content: "";
-  background-color: #$black;
+  background-color: $black;
   width: 24px;
   height: 4px;
   display: block;
@@ -376,7 +376,7 @@ input {
 
 .open:after {
   content: "";
-  background-color: #$black;
+  background-color: $black;
   width: 24px;
   height: 4px;
   display: block;
