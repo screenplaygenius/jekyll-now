@@ -359,7 +359,6 @@ input {
   border-radius: 2px;
   cursor: pointer;
   position: relative;
-  margin: auto;
   top: 8px;
 }
 
@@ -373,12 +372,11 @@ input {
   position: relative;
   top: -8px;
   transform: rotate(0deg);
-  transition: all 0.3s ease;
 }
 
 .open:after {
   content: "";
-  background-color: $black;
+  background-color: #3c3c3c;
   width: 24px;
   height: 4px;
   display: block;
@@ -386,14 +384,15 @@ input {
   position: relative;
   top: 4px;
   transform: rotate(0deg);
-  transition: all 0.3s ease;
 }
 
 .menuOpen {
   width: 24px;
   height: 20px;
+  display: block;
   padding: 15px;
   cursor: pointer;
+  margin: auto;
 }
 
 .menuOpen:hover .open:before {
@@ -410,7 +409,7 @@ input {
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgba(255, 135, 2, 0.9);
+  background: #000;
 }
 
 .menu label {
@@ -425,11 +424,10 @@ input {
 
 .menu .menuContent {
   position: relative;
-  top: 50%;
   font-size: 54px;
   text-align: center;
+  padding-top: 10%;
   padding-bottom: 20px;
-  margin-top: -170px;
 }
 
 .menu ul {
@@ -442,14 +440,13 @@ input {
   display: block;
   color: white;
   text-decoration: none;
-  transition: color 0.2s;
-  font-family: Trebuchet MS;
+  font-family: 'Courier New';
   text-transform: uppercase;
   padding: 10px 0;
 }
 
 .menu ul li a:hover {
-  color: $black;
+  color: #ff8702;
 }
 
 .menu ul li:hover {
@@ -459,18 +456,11 @@ input {
 .menuEffects {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.5s, visibility 0.5s;
-}
-
-.menuEffects ul {
-  transform: translateY(0%);
-  transition: all 0.5s;
 }
 
 #menuToggle:checked ~ .menuEffects {
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.5s;
 }
 
 #menuToggle:checked ~ .menuEffects ul {
