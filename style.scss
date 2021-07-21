@@ -368,23 +368,13 @@ input[type=submit] {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    padding: 200px;
     text-align: center;
     background: green;
     font-size: 28px;
     color: #000;
-    text-decoration: none;
     font-family: 'Courier New';
-    text-transform: uppercase;
 }
 
-
-
-
-
-input {
-  display: none;
-}
 
 .open {
   background-color: $black;
