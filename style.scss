@@ -392,7 +392,7 @@ input {
   display: block;
   padding: 15px;
   cursor: pointer;
-  margin: auto;
+  float: right;
 }
 
 .menuOpen:hover .open:before {
