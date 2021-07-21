@@ -351,16 +351,14 @@ input[type=submit] {
     box-sizing: border-box;
     display: block;
     width: 100%;
-    border-top: 1px solid #333;
   }
   /* (B) SHOW HAMBURGER ICON */
   #hamnav label {
     display: inline-block;
     color: $black;
-    background: #a02620;
     font-style: normal;
     font-size: 1.2em;
-    padding: 10px;
+    padding-bottom: 10px;
   }
 
   /* (C) TOGGLE SHOW/HIDE MENU */
@@ -370,9 +368,14 @@ input[type=submit] {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    top: 0;
-    left: 0;
-    background: #000;
+    padding: 200px;
+    text-align: center;
+    background: green;
+    font-size: 28px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Courier New';
+    text-transform: uppercase;
 }
 
 
