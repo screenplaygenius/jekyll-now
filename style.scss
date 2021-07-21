@@ -347,6 +347,38 @@ input[type=submit] {
     font: 16px 'Courier New', monospace;
 }
 
+#hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+  /* (B) SHOW HAMBURGER ICON */
+  #hamnav label {
+    display: inline-block;
+    color: $black;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* (C) TOGGLE SHOW/HIDE MENU */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #000;
+}
+
+
+
+
+
 input {
   display: none;
 }
@@ -404,7 +436,7 @@ input {
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -423,7 +455,7 @@ input {
 }
 
 .menu .menuContent {
-  position: fixed;
+  position: relative;
   font-size: 28px;
   text-align: center;
   padding-top: 200px;
