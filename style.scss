@@ -404,7 +404,7 @@ input {
 }
 
 .menu {
-  position: fixed;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -423,10 +423,10 @@ input {
 }
 
 .menu .menuContent {
-  position: relative;
+  position: fixed;
   font-size: 28px;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 200px;
   padding-bottom: 20px;
 }
 
