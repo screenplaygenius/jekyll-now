@@ -17,29 +17,20 @@
 
   <body>
     <div class="wrapper-masthead">
-      <div class="container1">
+      <div class="container">
         <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-          <!-- Top Navigation Menu -->
-          <div class="topnav">
-                    <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
 
-                    <div class="site-info">
-                      <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-                      <p class="site-description">{{ site.description }}</p>
-                    </div>
-            <div id="myLinks">
-          	<a href="{{ site.baseurl }}/screenplaymachine">Screenplay Machine</a>
+          <nav>
+            <a href="{{ site.baseurl }}/screenplaymachine">Screenplay Machine</a>
           	<a href="{{ site.baseurl }}/blog">Blog</a>
           	<a href="{{ site.baseurl }}/mywriting">My Writing</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
-
-          <!-- End smartphone / tablet look -->
-          </div>
+          </nav>
         </header>
       </div>
     </div>
