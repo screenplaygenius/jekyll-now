@@ -341,7 +341,7 @@ input[type=submit] {
   background-position: center;
   background-size: cover;
 
-  @include mobile {
+  @include mobile 
     height: 400px
 }
 
