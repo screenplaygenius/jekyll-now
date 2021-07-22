@@ -373,6 +373,59 @@ input[type=submit], input[type=button] {
     -webkit-appearance: none;
 }
 
+.home-image2 {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-color: $black;
+
+  @include mobile {
+    height: 400px;
+}
+}
+
+.home-box2-h2 {
+  color: $black;
+}
+
+.home-box2-h2 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: $pink;
+    color: white;
+    padding: 40px 25px 40px 25px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    z-index: 10;
+    font: 16px 'Courier New', monospace;
+}
+
+.home-button2 {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    background-color:$green;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    z-index: 10;
+    cursor: pointer;
+    font: 16px 'Courier New', monospace;
+    -webkit-appearance: none;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
