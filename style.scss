@@ -162,7 +162,7 @@ img {
 .masthead {
   padding-left: 25px;
   padding-right: 25px;
-  background-color: #ed008c;
+  background-color: $pink;
   text-align: center;
   }
 
@@ -293,7 +293,7 @@ input[type=text], select {
 input[type=submit], input[type=button] {
     display: inline-block;
     width: 200px;
-    background-color:#00a652;
+    background-color:$green;
     border: none;
     color: white;
     padding: 15px 15px;
@@ -303,6 +303,7 @@ input[type=submit], input[type=button] {
     border-radius: 4px;
     cursor: pointer;
     font: 16px 'Courier New', monospace;
+    -webkit-appearance: none;
     }
 
 .subscribe {
@@ -355,7 +356,7 @@ input[type=submit], input[type=button] {
     width: 250px;
     height: 50px;
     position: absolute;
-    background-color:#00a652;
+    background-color:$green;
     top: 0;
     right: 0;
     bottom: 0;
@@ -369,6 +370,7 @@ input[type=submit], input[type=button] {
     z-index: 10;
     cursor: pointer;
     font: 16px 'Courier New', monospace;
+    -webkit-appearance: none;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
