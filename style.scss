@@ -290,7 +290,7 @@ input[type=text], select {
     font: 16px 'Courier New', monospace;
 }
 
-input[type=submit] {
+input[type=submit], input[type=button] {
     display: inline-block;
     width: 200px;
     background-color:#00a652;
