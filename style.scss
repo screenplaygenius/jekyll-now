@@ -207,29 +207,31 @@ img {
 
 nav {
   float: none;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 15px; // @TODO: Vertically middle align
   margin-left: 23px;
   font-family: 'Courier New', monospace;
-  font-size: 18px;
+  font-size: 18px
+  padding-bottom: 10px;
 
   @include mobile {
     float: none;
-    margin-top: 9px;
-    margin-left: 9px;
+    margin-top: 10px;
+    margin-left: 10px;
     display: block;
     font-size: 16px;
+    padding-bottom: 10px;
   }
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: green;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: green;
     }
   }
 }
@@ -286,7 +288,7 @@ footer {
 // extras
 
 input[type=text], select {
-    width: 40%;
+    width: 300px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -297,7 +299,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    width: 20%;
+    width: 180px;
     background-color:#00a652;
     border: none;
     color: white;
@@ -317,8 +319,8 @@ input[type=submit] {
 
 .page1 {
   max-width: 740px;
-    padding: 50px 50px 50px 50px;
-    width: 100%;
+  padding: 50px 50px 50px 50px;
+  width: 100%;
 }
 
 .home-image {
@@ -336,43 +338,16 @@ input[type=submit] {
     background-color:#00a652;
     border: none;
     color: white;
+    margin-top: 100px;
+    margin-left: auto;
     padding: 15px 15px;
-    margin: auto;
     border: none;
     border-radius: 4px;
     width: 250px;
-    vertical-align: middle;
     text-align: center;
     cursor: pointer;
     font: 16px 'Courier New', monospace;
 }
-
-.topnav {
-  overflow: hidden;
-  position: relative;
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav a {
-  padding: 14px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.active {
-  color: black;
-}
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
