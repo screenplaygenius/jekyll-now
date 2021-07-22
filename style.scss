@@ -375,7 +375,6 @@ input[type=submit] {
     font-family: 'Courier New';
 }
 
-
 .open {
   background-color: $black;
   width: 24px;
@@ -518,6 +517,32 @@ input[type=submit] {
 
 #menuToggle:not(:checked) ~ .menuEffects ul {
   transform: translateY(-30%);
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  color: black;
 }
 
 
