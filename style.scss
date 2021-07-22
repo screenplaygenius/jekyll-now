@@ -303,12 +303,6 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font: 16px 'Courier New', monospace;
-
-    @include mobile {
-      display: block;
-      width: 150px;
-      padding: 10px 10px;
-    }
     }
 
 .subscribe {
@@ -334,6 +328,10 @@ input[type=submit] {
   @include mobile {
     height: 400px;
 }
+}
+
+.home-box-h2 {
+  color: $white;
 }
 
 .home-box {
